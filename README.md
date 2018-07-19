@@ -1,6 +1,10 @@
-:bangbang::-1: **Moved to Gitlab... (jamgo/docker-pulsesecure-vpn)**
+# docker-vpn-proxy
 
-# docker-pulsesecure-vpn
+Based on jamgo/docker-pulsesecure-vpn, it adds dns, ssh and socks proxy so hosts can access the vpn without changing routes.
+
+** This is currently work in progress **
+
+# documentation from jamgo/docker-pulsesecure-vpn follows
 
 Dockerized pulse secure vpn connection using:
 
