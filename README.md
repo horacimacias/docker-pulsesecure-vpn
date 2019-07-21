@@ -8,8 +8,8 @@ Based on jamgo/docker-pulsesecure-vpn, it adds ssh and socks proxy and configure
 
 Run first without any parameters
 ```bash
-    docker run -it --rm horacimacias/docker-vpn-proxy
-````
+    docker run -it --rm horacimacias/docker-vpn-proxy:latest
+```
 
 and follow onscreen instructions.
 

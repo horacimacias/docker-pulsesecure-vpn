@@ -25,7 +25,7 @@ COPY tinyproxy.conf /etc/tinyproxy
 
 # add ssh key so we can connect over ssh
 RUN mkdir /root/.ssh && chmod -R 600 /root/.ssh && ssh-keygen -A && mkdir -p /usr/local/share/ca-certificates/
-COPY *.crt /usr/local/share/ca-certificates/
+# COPY *.crt /usr/local/share/ca-certificates/
 COPY sshd_config /etc/ssh/
 
 COPY startup.sh /root/startup.sh
